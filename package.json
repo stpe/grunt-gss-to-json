@@ -8,10 +8,6 @@
     "email": "stefpet@gmail.com",
     "url": "http://www.stpe.se"
   },
-  "keywords": [
-    "gruntplugin",
-
-  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/stpe/grunt-gss-to-json.git"
@@ -37,9 +33,13 @@
     "grunt": "~0.4.5"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "spreadsheet",
+    "json",
+    "google",
+    "convert"
   ],
   "dependencies": {
-    "edit-google-spreadsheet": "^0.2.9"
+    "edit-google-spreadsheet": "^0.2.11"
   }
 }
