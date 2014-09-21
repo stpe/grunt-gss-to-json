@@ -4,6 +4,8 @@
 
 > Read Google Spreadsheet and save as JSON.
 
+[![NPM](https://nodei.co/npm/grunt-gss-to-json.png?compact=true)](https://nodei.co/npm/grunt-gss-to-json/)
+
 Using [edit-google-spreadsheet](https://www.npmjs.org/package/edit-google-spreadsheet) grunt-gss-to-json read a Google Spreadsheet and saves it as a JSON-file, optionally as an array with each row transformed using a custom function.
 
 ## Getting Started
