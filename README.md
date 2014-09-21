@@ -65,13 +65,13 @@ grunt.initConfig({
 });
 ```
 
-Please note that it is bad practice for security reasons to commit authentication credentials. See example below.
+Please note that it is bad practice for security reasons to commit authentication credentials. See usage example below for an example of how to avoid that.
 
 ### Options
 
 Please see the [edit-google-spreadsheet](https://www.npmjs.org/package/edit-google-spreadsheet) documentation for the authentication options passed along. [This blog post](http://www.nczonline.net/blog/2014/03/04/accessing-google-spreadsheets-from-node-js/) have instructions of how to setup access to a Google Spreadsheet that is *not* shared publicly.
 
-The grunt-gss-to-json specific options...
+The grunt-gss-to-json specific options follow below.
 
 #### options.prettify
 Type: `Boolean`
@@ -107,7 +107,7 @@ The functions has two parameters, *row* and *header*. Both objects does look the
 }
 ```
 
-If a cell is empty that column is missing. See below for example function.
+If a cell is empty that column is missing. See below for example usage.
 
 ### Usage Examples
 
