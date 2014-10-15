@@ -1,7 +1,7 @@
 {
   "name": "grunt-gss-to-json",
   "description": "Grunt task that read a Google Spreadsheet and save as JSON.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/stpe/grunt-gss-to-json",
   "author": {
     "name": "Stefan Pettersson",
@@ -40,6 +40,6 @@
     "convert"
   ],
   "dependencies": {
-    "edit-google-spreadsheet": "^0.2.11"
+    "edit-google-spreadsheet": "^0.2.12"
   }
 }
