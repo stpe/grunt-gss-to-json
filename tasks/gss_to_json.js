@@ -59,9 +59,14 @@ module.exports = function(grunt) {
             }
 
             if (options.transformRow) {
-              rows = Object.keys(rows).map(function(row) {
-                return options.transformRow(rows[row], header);
-              });
+              rows = Object
+                .keys(rows)
+                .map(function(row) {
+                  return options.transformRow(rows[row], header);
+                })
+                .filter(function(row) {
+                  return row !== false;
+                });
             }
 
             var data = options.includeInfo ? { rows: rows, info: info } : rows;

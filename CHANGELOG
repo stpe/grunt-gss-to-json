@@ -1,7 +1,13 @@
+v0.1.2:
+  date: 2015-01-12
+  changes:
+   - Remove rows from result where transformRow() return false.
+   - Updated edit-google-spreadsheet dependency to version 0.2.13.
+
 v0.1.1:
   date: 2014-10-15
   changes:
-   - Updated edit-google-spreadsheet latest version.
+   - Updated edit-google-spreadsheet dependency to version 0.2.12.
 
 v0.1.0:
   date: 2014-09-21
