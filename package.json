@@ -40,6 +40,6 @@
     "convert"
   ],
   "dependencies": {
-    "edit-google-spreadsheet": "^0.2.19"
+    "edit-google-spreadsheet": "0.2.21"
   }
 }
